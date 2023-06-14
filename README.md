@@ -1,4 +1,4 @@
-# 10 Framework Comparsion
+# 12 Framework Comparsion
 
 Build a simple todo app with...
 
@@ -6,7 +6,9 @@ Build a simple todo app with...
 1. React
 1. Angular
 1. Vue
-1. Svelte 
+1. Svelte
+1. Astro 
+1. Qwik
 1. Lit
 1. Alpine
 1. Solid

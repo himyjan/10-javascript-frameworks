@@ -1,4 +1,5 @@
-import { html, css, LitElement, property } from 'lit-element';
+import { html, LitElement } from 'lit';
+import { property } from 'lit/decorators.js';
 
 export class LitApp extends LitElement {
 
@@ -23,9 +24,9 @@ export class LitApp extends LitElement {
   render() {
     return html`
 
-    <ul>
-      ${this.todos.map(todo => html`<li>${todo}</li>`)}
-    </ul>
+      <ul>
+        ${this.todos.map(todo => html`<li>${todo}</li>`)}
+      </ul>
 
       <form @submit="${this.addTodo}">
         <input type="text" .value="${this.todoText}" @change=${(e: any) => this.todoText = e.target.value} />

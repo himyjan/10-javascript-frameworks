@@ -1,4 +1,4 @@
-import { Component, Prop, h, State } from '@stencil/core';
+import { Component, h, State } from '@stencil/core';
 
 @Component({
   tag: 'my-component',
@@ -6,7 +6,6 @@ import { Component, Prop, h, State } from '@stencil/core';
   shadow: true,
 })
 export class MyComponent {
-
   @State() todoText = '';
   @State() todos = [];
 
